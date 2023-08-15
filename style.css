@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&family=Russo+One&family=Ubuntu:ital,wght@1,400;1,700&display=swap');
+
+:root {
+    --color-1: #0974b3;
+    --color-2: #666;
+    --color-3: #F1F0E8;
+    --color-4: #fff;
+    
+
+    --font: ubuntu;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: var(--font);
+    font-size: 16px;
+    padding: 20px;
+    background: var(--color-3);
+}
+
+img {
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin: 0;
+    margin-right: 20px;
+}
+h1 {
+    color: var(--color-1);
+}
+
+div {
+    color: #666;
+}
+
+section {
+    max-width: 800px;
+    background: var(--color-4);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.inline-block {
+    display: inline-block;
+    width: 50px;
+    height: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+    position: relative;
+    top: 100px;
+}
+.box-block { 
+    display: block;
+    float:none;
+}
+.float {
+    float: left;
+}
